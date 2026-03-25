@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task2->Quiz</title>
+    <link href="./dist/output.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="relative h-screen">
+  <div class="absolute inset-0">
+    <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-size-[6rem_4rem] [&>div]:absolute [&>div]:inset-0 [&>div]:bg-[radial-gradient(circle_800px_at_100%_200px,#d5c5ff,transparent)]">
+    <div>
+  </div>
+  </div>
+  
+  <div class="relative z-10 flex h-full flex-col items-center justify-center px-4">
+    <div class="max-w-3xl text-center">
+      <h1 class="mb-8 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl text-slate-900">
+        <span class="text-sky-900">Test your knowledge</span>
+      </h1>
+      <p class="mx-auto mb-8 max-w-2xl text-lg text-slate-700">
+        If you think you are well equipped with the basic concepts of javascript , take the challenge and click the button below . All the Best!!!
+      </p>
+      <div class="grid justify-items-center m-5">
+        <textarea
+          class="textarea  bg-white border-2 border-sky-900 rounded-2xl m-3 p-2"
+          cols="30"
+          rows="1"
+          placeholder="Your Name"
+        ></textarea>
+        <textarea
+          class="textarea  bg-white border-2 border-sky-900 rounded-2xl m-5 p-2"
+          cols="30"
+          rows="1"
+          placeholder="Your e-mail"
+        ></textarea>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4">
+        <button class="rounded-lg px-6 py-3 font-medium bg-sky-900 text-white hover:bg-sky-800">
+          <a href="quiz.html">Start Quiz</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
