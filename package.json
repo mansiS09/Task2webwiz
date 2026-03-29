@@ -15,5 +15,13 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansiS09/Task2webwiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mansiS09/Task2webwiz/issues"
+  },
+  "homepage": "https://github.com/mansiS09/Task2webwiz#readme"
 }

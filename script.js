@@ -150,8 +150,10 @@ function resetState() {
 function selectAnswer(answer, button) {
     if (answer.correct) {
         score++;
+        button.classList.remove('bg-white');
         button.classList.add('bg-green-400');
     } else {
+        button.classList.remove('bg-white');
         button.classList.add('bg-red-400');
     }
 
@@ -179,6 +181,6 @@ submitBtn.addEventListener('click', () => {
     scoreSpan.innerText = `${score} / ${question.length}`;
 });
 
-restartBtn.addEventListener('click', startQuiz);
+restartBtn.addEventListener('click',startQuiz);
 
 startQuiz();
